@@ -1,1 +1,0 @@
-print(ddf.head(10))
