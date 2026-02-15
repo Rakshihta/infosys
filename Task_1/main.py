@@ -24,7 +24,7 @@ ddf = dd.read_csv("dataset.csv")
 
 print(ddf.head(10))
 # print("running")
-print(ddf.npartitions)
+print("Number of partitions: ",ddf.npartitions)
 
 
 
