@@ -1,0 +1,45 @@
+anomalies:
+
+  - name: error_spike
+    description: "High number of ERROR logs in short time"
+    severity: HIGH
+    detection:
+      field: level
+      condition: "equals ERROR"
+      time_window: "5 minutes"
+      threshold: 100
+
+  - name: too_many_500_errors
+    description: "High number of HTTP 500 errors"
+    severity: HIGH
+    detection:
+      field: status_code
+      condition: "equals 500"
+      time_window: "5 minutes"
+      threshold: 30
+
+  - name: slow_response_time
+    description: "Average response time too high"
+    severity: MEDIUM
+    detection:
+      field: response_time_ms
+      condition: "average greater than"
+      time_window: "5 minutes"
+      threshold: 2000
+
+  - name: service_down
+    description: "No logs received from service"
+    severity: CRITICAL
+    detection:
+      field: service
+      condition: "no logs"
+      time_window: "2 minutes"
+
+  - name: failed_login_spike
+    description: "Too many failed login attempts"
+    severity: HIGH
+    detection:
+      field: event_type
+      condition: "equals SECURITY_EVENT"
+      time_window: "5 minutes"
+      threshold: 50
