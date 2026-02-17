@@ -19,7 +19,7 @@ dask_df = dd.from_pandas(df, npartitions=2)
 
 error_count = dask_df[dask_df["level"] == "ERROR"].shape[0].compute()
 
-print("Total ERROR logs (processed by Dask):", error_count)
+print("Total ERROR logs (processed by Dask): ", error_count)
 
 #Ray - to check anomaly
 ray.init(ignore_reinit_error=True)
