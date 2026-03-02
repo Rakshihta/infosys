@@ -1,0 +1,89 @@
+log_entry:
+  description: "Schema definition for structured application logs"
+
+  fields:
+
+    - name: timestamp
+      type: datetime
+      required: true
+      description: "Time when the event occurred"
+      example: "2024-02-15T10:30:45Z"
+
+    - name: level
+      type: string
+      required: true
+      options:
+        - TRACE
+        - DEBUG
+        - INFO
+        - WARNING
+        - ERROR
+        - CRITICAL
+      description: "Severity level of the log"
+      example: "ERROR"
+
+    - name: service
+      type: string
+      required: true
+      description: "Name of the service generating the log"
+      example: "payment-service"
+
+    - name: event_type
+      type: string
+      required: true
+      options:
+        - API_CALL
+        - BUSINESS_EVENT
+        - SYSTEM_EVENT
+        - SECURITY_EVENT
+        - ERROR_EVENT
+      description: "Type/category of event being logged"
+      example: "API_CALL"
+
+    - name: message
+      type: string
+      required: true
+      description: "Human-readable description of the event"
+      example: "Payment failed due to insufficient balance"
+
+    - name: request_id
+      type: string
+      required: false
+      description: "Unique ID to trace a request across services"
+      example: "req_12345"
+
+    - name: user_id
+      type: string
+      required: false
+      description: "User associated with the request"
+      example: "user_789"
+
+    - name: endpoint
+      type: string
+      required: false
+      description: "API endpoint involved in the event"
+      example: "/api/pay"
+
+    - name: status_code
+      type: integer
+      required: false
+      description: "HTTP status code returned"
+      example: 500
+
+    - name: response_time_ms
+      type: integer
+      required: false
+      description: "Time taken to process request in milliseconds"
+      example: 2500
+
+    - name: ip_address
+      type: string
+      required: false
+      description: "IP address of request origin"
+      example: "192.168.1.10"
+
+    - name: error_stack
+      type: string
+      required: false
+      description: "Stack trace if an error occurred"
+      example: "Traceback (most recent call last): ..."
