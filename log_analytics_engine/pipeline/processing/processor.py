@@ -1,4 +1,4 @@
-from pipeline.processing.parser import parse_log
+from pipeline.processing.parse import parse_log
 import ray
 import logging
 
