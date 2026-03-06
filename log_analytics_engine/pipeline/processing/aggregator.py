@@ -17,3 +17,10 @@ def analyze(structured_logs: list[dict]) -> dd.DataFrame:
     
     return df
 
+import json
+
+def store_logs(structured_logs: list[dict], output_path: str) -> None:
+    with open(output_path, "w") as f:
+        json.dump(structured_logs, f, indent=4)
+    logger.info(f"Stored {len(structured_logs)} logs to {output_path}")
+
