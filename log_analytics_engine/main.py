@@ -38,14 +38,24 @@
 
 from dotenv import load_dotenv
 import os
+import json
 from simulate.streaming import start_stream
 
+# Load environment variables
 load_dotenv()
 
 sender = os.getenv("SENDER_EMAIL")
 password = os.getenv("EMAIL_PASSWORD")
 recipient = os.getenv("RECIPIENT_EMAIL")
 
+# Initialize files
+with open("anomalies.json", "w") as f:
+    json.dump([], f)
+
+with open("output_logs.json", "w") as f:
+    json.dump([], f)
+
+# Start streaming
 start_stream(
     window_size=100,
     sender=sender,

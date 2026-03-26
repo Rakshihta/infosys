@@ -1,0 +1,482 @@
+[
+    {
+        "Level": "ERROR",
+        "Service Name": "payment-service",
+        "Status_code": 996,
+        "message": "Authentication server down",
+        "timestamp": "2026-03-26T11:03:26Z",
+        "zscore": 3.043749265435431
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "notification-service",
+        "Status_code": 996,
+        "message": "Authentication server down",
+        "timestamp": "2026-03-26T11:03:26Z",
+        "zscore": 3.043749265435431
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "payment-service",
+        "Status_code": 955,
+        "message": "Inventory service crash detected",
+        "timestamp": "2026-03-26T11:03:26Z",
+        "zscore": 2.8482826281901885
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "notification-service",
+        "Status_code": 914,
+        "message": "Database connection lost",
+        "timestamp": "2026-03-26T11:03:26Z",
+        "zscore": 2.652815990944946
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "notification-service",
+        "Status_code": 951,
+        "message": "Inventory service crash detected",
+        "timestamp": "2026-03-26T11:03:26Z",
+        "zscore": 2.829212712361384
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "order-service",
+        "Status_code": 986,
+        "message": "Critical system failure detected",
+        "timestamp": "2026-03-26T11:03:27Z",
+        "zscore": 2.9960744758634203
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "auth-service",
+        "Status_code": 978,
+        "message": "Database connection lost",
+        "timestamp": "2026-03-26T11:03:27Z",
+        "zscore": 2.957934644205812
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "order-service",
+        "Status_code": 923,
+        "message": "Inventory service crash detected",
+        "timestamp": "2026-03-26T11:03:27Z",
+        "zscore": 2.695723301559755
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "payment-service",
+        "Status_code": 976,
+        "message": "Database connection lost",
+        "timestamp": "2026-03-26T11:03:27Z",
+        "zscore": 2.94839968629141
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "payment-service",
+        "Status_code": 919,
+        "message": "Inventory service crash detected",
+        "timestamp": "2026-03-26T11:03:27Z",
+        "zscore": 2.676653385730951
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "notification-service",
+        "Status_code": 972,
+        "message": "Authentication server down",
+        "timestamp": "2026-03-26T11:03:31Z",
+        "zscore": 2.8401887375864474
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "order-service",
+        "Status_code": 905,
+        "message": "Critical system failure detected",
+        "timestamp": "2026-03-26T11:03:31Z",
+        "zscore": 2.5211627091893645
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "payment-service",
+        "Status_code": 984,
+        "message": "Order service unavailable",
+        "timestamp": "2026-03-26T11:03:32Z",
+        "zscore": 2.8973277277471188
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "order-service",
+        "Status_code": 971,
+        "message": "Order service unavailable",
+        "timestamp": "2026-03-26T11:03:32Z",
+        "zscore": 2.835427155073058
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "order-service",
+        "Status_code": 935,
+        "message": "Critical system failure detected",
+        "timestamp": "2026-03-26T11:03:32Z",
+        "zscore": 2.6640101845910436
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "order-service",
+        "Status_code": 911,
+        "message": "Order service unavailable",
+        "timestamp": "2026-03-26T11:03:32Z",
+        "zscore": 2.5497322042697004
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "order-service",
+        "Status_code": 947,
+        "message": "Critical system failure detected",
+        "timestamp": "2026-03-26T11:03:32Z",
+        "zscore": 2.721149174751715
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "auth-service",
+        "Status_code": 904,
+        "message": "Critical system failure detected",
+        "timestamp": "2026-03-26T11:03:32Z",
+        "zscore": 2.516401126675975
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "inventory-service",
+        "Status_code": 981,
+        "message": "Order service unavailable",
+        "timestamp": "2026-03-26T11:03:33Z",
+        "zscore": 2.8830429802069513
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "auth-service",
+        "Status_code": 974,
+        "message": "Critical system failure detected",
+        "timestamp": "2026-03-26T11:03:33Z",
+        "zscore": 2.849711902613226
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "order-service",
+        "Status_code": 994,
+        "message": "Order service unavailable",
+        "timestamp": "2026-03-26T11:03:33Z",
+        "zscore": 2.944943552881012
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "auth-service",
+        "Status_code": 923,
+        "message": "Order service unavailable",
+        "timestamp": "2026-03-26T11:03:37Z",
+        "zscore": 3.9412229283955504
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "auth-service",
+        "Status_code": 960,
+        "message": "Inventory service crash detected",
+        "timestamp": "2026-03-26T11:03:38Z",
+        "zscore": 4.186398032384648
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "auth-service",
+        "Status_code": 958,
+        "message": "Database connection lost",
+        "timestamp": "2026-03-26T11:03:38Z",
+        "zscore": 4.173145324060913
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "notification-service",
+        "Status_code": 928,
+        "message": "Order service unavailable",
+        "timestamp": "2026-03-26T11:03:38Z",
+        "zscore": 3.974354699204888
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "auth-service",
+        "Status_code": 926,
+        "message": "Order service unavailable",
+        "timestamp": "2026-03-26T11:03:39Z",
+        "zscore": 3.961101990881153
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "notification-service",
+        "Status_code": 971,
+        "message": "Critical system failure detected",
+        "timestamp": "2026-03-26T11:03:44Z",
+        "zscore": 3.023960832460405
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "notification-service",
+        "Status_code": 977,
+        "message": "Authentication server down",
+        "timestamp": "2026-03-26T11:03:44Z",
+        "zscore": 3.0536725623833774
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "inventory-service",
+        "Status_code": 943,
+        "message": "Authentication server down",
+        "timestamp": "2026-03-26T11:03:44Z",
+        "zscore": 2.8853060928198664
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "inventory-service",
+        "Status_code": 923,
+        "message": "Database connection lost",
+        "timestamp": "2026-03-26T11:03:45Z",
+        "zscore": 2.7862669930766244
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "auth-service",
+        "Status_code": 913,
+        "message": "Database connection lost",
+        "timestamp": "2026-03-26T11:03:45Z",
+        "zscore": 2.736747443205003
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "inventory-service",
+        "Status_code": 908,
+        "message": "Critical system failure detected",
+        "timestamp": "2026-03-26T11:03:45Z",
+        "zscore": 2.711987668269193
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "auth-service",
+        "Status_code": 946,
+        "message": "Order service unavailable",
+        "timestamp": "2026-03-26T11:03:45Z",
+        "zscore": 2.9001619577813527
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "auth-service",
+        "Status_code": 937,
+        "message": "Order service unavailable",
+        "timestamp": "2026-03-26T11:03:45Z",
+        "zscore": 2.8555943628968934
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "payment-service",
+        "Status_code": 955,
+        "message": "Database connection lost",
+        "timestamp": "2026-03-26T11:03:45Z",
+        "zscore": 2.9447295526658115
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "payment-service",
+        "Status_code": 947,
+        "message": "Order service unavailable",
+        "timestamp": "2026-03-26T11:03:45Z",
+        "zscore": 2.9051139127685146
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "inventory-service",
+        "Status_code": 984,
+        "message": "Authentication server down",
+        "timestamp": "2026-03-26T11:03:50Z",
+        "zscore": 2.860390014394275
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "payment-service",
+        "Status_code": 978,
+        "message": "Critical system failure detected",
+        "timestamp": "2026-03-26T11:03:50Z",
+        "zscore": 2.8321712997058297
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "payment-service",
+        "Status_code": 983,
+        "message": "Authentication server down",
+        "timestamp": "2026-03-26T11:03:50Z",
+        "zscore": 2.855686895279534
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "payment-service",
+        "Status_code": 905,
+        "message": "Authentication server down",
+        "timestamp": "2026-03-26T11:03:50Z",
+        "zscore": 2.4888436043297433
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "auth-service",
+        "Status_code": 951,
+        "message": "Order service unavailable",
+        "timestamp": "2026-03-26T11:03:50Z",
+        "zscore": 2.705187083607825
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "notification-service",
+        "Status_code": 919,
+        "message": "Order service unavailable",
+        "timestamp": "2026-03-26T11:03:51Z",
+        "zscore": 2.5546872719361158
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "order-service",
+        "Status_code": 930,
+        "message": "Database connection lost",
+        "timestamp": "2026-03-26T11:03:51Z",
+        "zscore": 2.6064215821982657
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "payment-service",
+        "Status_code": 973,
+        "message": "Critical system failure detected",
+        "timestamp": "2026-03-26T11:03:51Z",
+        "zscore": 2.808655704132125
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "inventory-service",
+        "Status_code": 999,
+        "message": "Authentication server down",
+        "timestamp": "2026-03-26T11:03:51Z",
+        "zscore": 2.9309368011153887
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "order-service",
+        "Status_code": 977,
+        "message": "Critical system failure detected",
+        "timestamp": "2026-03-26T11:03:51Z",
+        "zscore": 2.827468180591089
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "notification-service",
+        "Status_code": 971,
+        "message": "Inventory service crash detected",
+        "timestamp": "2026-03-26T11:03:51Z",
+        "zscore": 2.7992494659026432
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "inventory-service",
+        "Status_code": 993,
+        "message": "Inventory service crash detected",
+        "timestamp": "2026-03-26T11:03:55Z",
+        "zscore": 2.66467799685171
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "inventory-service",
+        "Status_code": 999,
+        "message": "Database connection lost",
+        "timestamp": "2026-03-26T11:03:55Z",
+        "zscore": 2.6906389743317947
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "order-service",
+        "Status_code": 966,
+        "message": "Inventory service crash detected",
+        "timestamp": "2026-03-26T11:03:55Z",
+        "zscore": 2.547853598191328
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "notification-service",
+        "Status_code": 901,
+        "message": "Inventory service crash detected",
+        "timestamp": "2026-03-26T11:03:55Z",
+        "zscore": 2.266609675490409
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "notification-service",
+        "Status_code": 947,
+        "message": "Critical system failure detected",
+        "timestamp": "2026-03-26T11:03:56Z",
+        "zscore": 2.4656438361710595
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "payment-service",
+        "Status_code": 968,
+        "message": "Database connection lost",
+        "timestamp": "2026-03-26T11:03:56Z",
+        "zscore": 2.5565072573513565
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "payment-service",
+        "Status_code": 910,
+        "message": "Authentication server down",
+        "timestamp": "2026-03-26T11:03:56Z",
+        "zscore": 2.305551141710536
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "notification-service",
+        "Status_code": 985,
+        "message": "Database connection lost",
+        "timestamp": "2026-03-26T11:03:56Z",
+        "zscore": 2.630063360211597
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "notification-service",
+        "Status_code": 989,
+        "message": "Authentication server down",
+        "timestamp": "2026-03-26T11:03:56Z",
+        "zscore": 2.6473706785316535
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "order-service",
+        "Status_code": 925,
+        "message": "Authentication server down",
+        "timestamp": "2026-03-26T11:03:57Z",
+        "zscore": 2.3704535854107482
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "order-service",
+        "Status_code": 917,
+        "message": "Authentication server down",
+        "timestamp": "2026-03-26T11:03:57Z",
+        "zscore": 2.3358389487706352
+    },
+    {
+        "Level": "CRITICAL",
+        "Service Name": "order-service",
+        "Status_code": 991,
+        "message": "Order service unavailable",
+        "timestamp": "2026-03-26T11:03:57Z",
+        "zscore": 2.6560243376916817
+    },
+    {
+        "Level": "ERROR",
+        "Service Name": "payment-service",
+        "Status_code": 936,
+        "message": "Database connection lost",
+        "timestamp": "2026-03-26T11:03:57Z",
+        "zscore": 2.4180487107909037
+    }
+]
